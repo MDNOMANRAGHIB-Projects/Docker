@@ -23,10 +23,10 @@
 6. Run the below command to create an image:
     docker build . -t my-nginx-image
 
-7. Run a container with above image:
-    docker run -d --name my-nginx-image -p 8080:80 nginx-image:latest
-
-8. Go to http://localhost:8080 to see the output.
-
 7. Confirm the image is created:
     docker images
+
+8. Run a container with above image:
+    docker run -d --name my-nginx-image -p 8080:80 nginx-image:latest
+
+9. Go to http://localhost:8080 to see the output.
