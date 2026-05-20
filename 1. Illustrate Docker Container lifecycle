@@ -1,0 +1,29 @@
+1. Pull the nginx image from docker hub:
+    docker pull nginx
+    
+2. Run a container from nginx image:
+    docker run -d --name my-nginx -p 8080:80 nginx
+    
+3. List the running containers:
+    docker ps
+    
+4. Go to http://localhost:8080 to see the nginx welcome page.
+
+5. See the details of running nginx container, configration and networking information:
+    docker inspect my-nginx
+
+6. To stop the nginx container:
+    docker stop my-nginx
+
+7. Verify the list of running comtainer:
+    docker ps
+
+8. To start the nginx container again:
+    docker start my-nginx
+
+9. To remove the nginx container, first stop the container and then remove.
+    docker stop my-nginx
+    docker rm my-nginx
+
+10. Verify and see the list of running and stopped containers.
+      docker ps -a
