@@ -15,7 +15,7 @@
 6. To stop the nginx container:
     docker stop my-nginx
 
-7. Verify the list of running comtainer:
+7. Verify the list of running container:
     docker ps
 
 8. To start the nginx container again:
